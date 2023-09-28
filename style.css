@@ -1,0 +1,91 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.navbar{
+    border: 1px solid #7b96ff;
+    background-color:#7b96ff;
+    border-radius: 5px;
+}
+
+#youtube {
+    background-color: red;
+}
+#instagram {
+    background-color: orangered;
+}
+#twitter {
+    background-color: cyan;
+}
+#facebook {
+    background-color: blue;
+}
+#khub {
+    background-color: orange  ;
+}
+
+.links{
+    border:1px solid black;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity:0.7;
+    transition:.6s
+}
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size:larger;
+    font-family: 'Roboto', sans-serif;
+}
+#linksgroup{
+    text-align: center;
+}
+
+.links a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url('banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 350px;
+}
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.banntertexth2{
+    text-transform: uppercase;
+    color: yellow: 4em;
+}
+.bannertext h2{
+    color:brown;
+    text-d;
+
+}
+.bannertext h2 span{
+    color: burlywood;
+}
+.bannertext p{
+    color: white;
+    font-family: 'Segoe UY', sans-serif;
+}
+.bannera{
+    text-decoration:none;
+    display: inline-block;
+    padding: 1em;
+    background-color: green;
+    margin-top: 1em;
+    font-family: 'Sergoe UI',sans-serif;
+    color:white;
+    font-weight: 700;
+}
